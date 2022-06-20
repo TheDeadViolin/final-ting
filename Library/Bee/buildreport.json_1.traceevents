@@ -1,0 +1,491 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1652641417829616, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641417830918, "dur": 12801, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641417843953, "dur": 38219, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641417882194, "dur": 205334, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641418087530, "dur": 2874766, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641420962312, "dur": 9848, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641423597052, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641423597272, "dur": 8635, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641423605909, "dur": 40615, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641423646526, "dur": 199763, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641423846290, "dur": 743676, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641424589968, "dur": 16240, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641424607298, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1652641423723053, "dur": 95479, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423723984, "dur": 37754, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423803153, "dur": 5222, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423808379, "dur": 10145, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423809099, "dur": 8843, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423822885, "dur": 1343, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652641423822129, "dur": 2171, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641424607423, "dur": 161, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1652641423878964, "dur":981, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641423879951, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652641423879988, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652641423879997, "dur":495, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652641423880524, "dur":531, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641423881055, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563572, "dur":282, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563854, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563864, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563865, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563884, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563885, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563889, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563890, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563894, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563895, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563899, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563900, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563905, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563906, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563910, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563911, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563915, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563916, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563919, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563920, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563926, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563927, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563931, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563932, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563936, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563942, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424563977, "dur":943, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652641423880837, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641423881120, "dur":3341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641423884461, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1652641423884534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641423946968, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1652641423948076, "dur":19175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641423967282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641423967314, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641423969497, "dur":19020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641423988522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641423988530, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641423989265, "dur":15478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424004748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424004772, "dur":8776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424013583, "dur":38778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424052366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424052375, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424053691, "dur":19661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424073358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424073367, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424074500, "dur":17997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424092503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424092512, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424093502, "dur":45205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424138710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424138716, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424142580, "dur":79636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424222221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424222230, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424223745, "dur":131646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424355399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424355408, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424356512, "dur":168633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424525149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652641424525155, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652641424525874, "dur":37736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641423881267, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641423881268, "dur":3115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641423884383, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1652641423884525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641423943512, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1652641423943922, "dur":68406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424012332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424012339, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424014551, "dur":60192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424074747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424074755, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424075793, "dur":31393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424107192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424107202, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424107745, "dur":37234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424144985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424144993, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424148852, "dur":22195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424171051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424171058, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424171633, "dur":19053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424190690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424190696, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424191707, "dur":201405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424393118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424393126, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424393872, "dur":87889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424481784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652641424481791, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652641424482277, "dur":81362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641423881486, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641423881487, "dur":2923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641423884410, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1652641423884559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641423948415, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1652641423949329, "dur":32568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641423981903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641423981912, "dur":5088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641423987034, "dur":86978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424074016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424074022, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424074545, "dur":29814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424104365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424104374, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424104911, "dur":65882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424170797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424170803, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424172552, "dur":32371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424204930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424205391, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424205976, "dur":104796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424310778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424310785, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424311396, "dur":122495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424433897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652641424433906, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652641424435272, "dur":128367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423881480, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423881480, "dur":2889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423884369, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652641423884519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423942690, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652641423943325, "dur":1051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1652641423944379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423944384, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1652641423945543, "dur":18496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641423964045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423964194, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641423964646, "dur":20599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641423985249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641423985255, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641423986364, "dur":46966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424033337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424033345, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424034332, "dur":27028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424061366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424061374, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424061990, "dur":47397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424109393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424109402, "dur":8921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424118360, "dur":23825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424142189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424142198, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424142626, "dur":23032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424165691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424165701, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424166258, "dur":18376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424184640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424184649, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424187147, "dur":110555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424297706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424297713, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424299377, "dur":151230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424450611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652641424450617, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652641424452419, "dur":111138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423881608, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423881609, "dur":2774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423884384, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1652641423884539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423947253, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1652641423948188, "dur":30701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641423978894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423978903, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641423979445, "dur":15965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641423995414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641423995421, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641423996993, "dur":44419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424041415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424041421, "dur":7591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424049046, "dur":35426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424084478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424084487, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424086176, "dur":30984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424117162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424117167, "dur":24256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424141467, "dur":31889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424173361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424173369, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424174272, "dur":16774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424191050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424191056, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424191643, "dur":62971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424254619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424254628, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424255221, "dur":82304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424337531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424337539, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424338907, "dur":91605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424430518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652641424430528, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652641424431277, "dur":132356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641423880990, "dur":169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641423881159, "dur":3209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641423884368, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641423884572, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641423949432, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652641423949829, "dur":35403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641423985238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641423985247, "dur":72849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424058136, "dur":49466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424107606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424107614, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424108483, "dur":18769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424127256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424127263, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424127799, "dur":17881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424145685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424145692, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424146211, "dur":25167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424171382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424171389, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424171939, "dur":39226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424211171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424211179, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424212116, "dur":207276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424419395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424419401, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652641424422468, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1652641424422498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652641424422503, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1652641424423335, "dur":140233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641423881230, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641423881231, "dur":3132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641423884367, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1652641423884545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641423948319, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1652641423950142, "dur":84631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424034776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641424034783, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424035270, "dur":72693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424107967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641424107974, "dur":18923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424126945, "dur":127910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424254858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641424254865, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424255449, "dur":30306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424285761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641424285770, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424286366, "dur":165319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424451691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652641424451698, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652641424452823, "dur":110786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641423881109, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641423881109, "dur":3256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641423884367, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1652641423884541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641423947665, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1652641423948247, "dur":33685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641423981936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641423981942, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641423986232, "dur":16673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424002911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424002919, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424003440, "dur":116469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424119915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424119924, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424121308, "dur":49084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424170398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424170407, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424171451, "dur":18784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424190241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424190250, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424191508, "dur":32936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424224448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424224456, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424226732, "dur":70554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424297292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424297300, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424298535, "dur":157785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424456324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652641424456330, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652641424457915, "dur":105719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641423881382, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641423881382, "dur":2982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641423884367, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1652641423884511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641423942881, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1652641423943713, "dur":50292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project.exe" }}
+,{ "pid":12345, "tid":9, "ts":1652641423994011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641423994017, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project.exe" }}
+,{ "pid":12345, "tid":9, "ts":1652641423995407, "dur":29134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424024547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641424024556, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424027520, "dur":159629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424187153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641424187161, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424191633, "dur":28475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424220112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641424220118, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424222517, "dur":98220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424320743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641424320752, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424321434, "dur":105902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424427340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652641424427351, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652641424428290, "dur":135321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423880834, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423881084, "dur":3275, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423884367, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1652641423884372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423885287, "dur":368, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1652641423885658, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1652641423885696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423885956, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1652641423887593, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1652641423887636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423887884, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1652641423888961, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1652641423888994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423889001, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1652641423889654, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1652641423889680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423889684, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1652641423890703, "dur":51476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423942185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423942346, "dur":6621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423949004, "dur":30370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423979378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423979385, "dur":366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423979780, "dur":19316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423999102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641423999111, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641423999781, "dur":220470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641424220254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641424220261, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641424223651, "dur":200851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641424424506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652641424424513, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652641424427385, "dur":136192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423881518, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423881518, "dur":2848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423884367, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652641423884445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423886059, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652641423887680, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423887754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423887831, "dur":351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423888203, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652641423888223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423888258, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652641423888955, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423889073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423889078, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423889616, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423889642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423889646, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1652641423890472, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641423891052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423891176, "dur":51829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641423943042, "dur":21765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641423964810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641423964815, "dur":46610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424011470, "dur":29370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424040845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424040853, "dur":6299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424047189, "dur":49271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424096466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424096476, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424097193, "dur":19805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424117004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424117012, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424120945, "dur":17605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424138554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424138563, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424139806, "dur":22136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424161948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424161957, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424162579, "dur":106362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424268946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424268955, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424270528, "dur":80837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424351371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424351379, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424352561, "dur":207745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424560309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652641424560315, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652641424563540, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1652641424563542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641423881580, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641423881581, "dur":2828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641423884410, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1652641423884530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641423943406, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1652641423943904, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1652641423943937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641423944414, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1652641423948822, "dur":82004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424030831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424030839, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424031481, "dur":38792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424070279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424070288, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424071050, "dur":46290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424117343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424117349, "dur":20429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424137841, "dur":21684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424159532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424159541, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424160133, "dur":19763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424179929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424179939, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424181070, "dur":38342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424219418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424219426, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424220063, "dur":57243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424277312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424277321, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424277859, "dur":27706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424305571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424305580, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424306116, "dur":35006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424341127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424341135, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424341685, "dur":40930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424382621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424382630, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424383677, "dur":25351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424409033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424409042, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652641424409594, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1652641424409623, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424409640, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1652641424410254, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1652641424410282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424410287, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":12, "ts":1652641424414098, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1652641424414132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424414139, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1652641424417483, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641424417510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424417516, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641424419216, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1652641424419304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424419311, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1652641424419734, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1652641424420335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424420341, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1652641424420815, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1652641424420848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424420853, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1652641424421444, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1652641424421477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424421482, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1652641424422102, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641424422139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424422144, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1652641424423202, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/uni work/1st year 2nd semester/final level design/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1652641424423299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652641424423306, "dur":357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/uni work/1st year 2nd semester/final level design/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1652641424423692, "dur":139918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652641424565983, "dur":1686, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1652641424607634, "dur": 670, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652641424607284, "dur": 1040, "ph": "X", "name": "Write chrome-trace events", "args": {} },
